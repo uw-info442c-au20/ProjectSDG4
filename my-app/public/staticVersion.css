@@ -1,0 +1,59 @@
+/*********************************************************************************/
+/* Media 375px                                                                   */
+/*********************************************************************************/
+@media (min-width: 375px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  #logo {
+    color: #8db596;
+    align-content: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  h2.row {
+    text-align: center;
+  }
+
+  .MissionStatement {
+    justify-content: center;
+  }
+
+  button {
+    color: #8db596;
+    background-color: white;
+    margin: 8px 0;
+    border-radius: 5px;
+    border-color: #8db596;
+    border-style: solid;
+    cursor: pointer;
+    width: 70%;
+  }
+
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+    color: white;
+    background-color: #8db596;
+  }
+}
+
+/*********************************************************************************/
+/* media 768px                                                                   */
+/*********************************************************************************/
+@media (min-width: 768px) {
+}
+
+/*********************************************************************************/
+/* media 1200px                                                                  */
+/*********************************************************************************/
+@media (min-width: 1200px) {
+}
