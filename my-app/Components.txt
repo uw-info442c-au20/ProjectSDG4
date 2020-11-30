@@ -1,0 +1,34 @@
+<App>
+    <HomePage>
+        <Login></Login>
+        <Content></Content>
+    </HomePage>
+    <Dashboard>
+        <SideNav></SideNav>
+        <Filter>
+            <FilterItem></FilterItem>
+        </Filter>
+        <MentorList>
+            <MentorListItem></MentorListItem>
+        </MentorList>
+    </Dashboard>
+    <DiscussionPage>
+        <SideNav></SideNav>
+        <Discussion>
+            <DiscussionBody>
+                <DiscussionComments></DiscussionComments>
+            </DiscussionBody>
+        </Discussion>
+    </DiscussionPage>
+    <MessagePage>
+        <SideNav></SideNav>
+        <MessageList>
+            <MessageListItem></MessageListItem>
+        </MessageList>
+        <MessageWindow></MessageWindow>
+    </MessagePage>
+    <ProfilePage>
+        <SideNav></SideNav>
+        <ProfileBody></ProfileBody>
+    </ProfilePage>
+</App>
