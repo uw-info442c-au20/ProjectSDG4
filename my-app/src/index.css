@@ -101,7 +101,23 @@
   .MissionStatement {
     justify-content: center;
   }
+
+  /* Dashboard Filters */
+  .filters {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+  }
+
+  .filter-item {
+    width: 25%;
+  }
+
+  .filter-item select {
+    width: 85%;
+  }
 }
+
 
 /*********************************************************************************/
 /* media 768px                                                                   */
@@ -114,3 +130,4 @@
 /*********************************************************************************/
 @media (min-width: 1200px) {
 }
+
