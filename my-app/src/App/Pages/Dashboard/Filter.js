@@ -18,11 +18,21 @@ export class Filter extends Component {
         let companiesObj = _.groupBy(this.props.mentors, 'company'); 
         let companies = Object.keys(companiesObj);
 
+        let interests = [];
+        this.props.mentors.map((mentor) => {
+            mentor.interests.map((interest) => {
+                if(interests.indexOf(interest) === -1) {
+                    interests.push(interest);
+                }
+            });
+        });
+
         return (
             <section>
                 <form className='filters'>
-                    <FilterItem name='Select Occupation' title='Occupations:' options={occupations} />
-                    <FilterItem name='Select Company' title='Companies:' options={companies} />
+                    <FilterItem name='All Occupations' title='Occupation:' options={occupations} id='occupations'/>
+                    <FilterItem name='All Companies' title='Company:' options={companies} id='companies'/>
+                    <FilterItem name='All Interests' title='Interests:' options={interests} id='interests'/>
                 </form>
             </section>
         );

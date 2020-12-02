@@ -3,16 +3,17 @@ import React, { Component } from 'react'; //import React Component
 export class FilterItem extends Component {
     render() {
         let filterTitle = this.props.title; 
+        let filterId = this.props.id;
         
         let filterOptions = this.props.options.map((filterOption) => {
-            return <option value={filterOption}>{filterOption}</option>
+        return <option key={filterOption} value={filterOption}>{filterOption} </option>
         });
 
         return (
             <div className='filter-item'>
                 <h2>{filterTitle}</h2>
-                <select name={this.props.name}>
-                    <option value='none' selected disabled hidden>
+                <select className={filterId} defaultValue='all' key='all'>
+                    <option value='all'>
                         {this.props.name}
                     </option>
                     {filterOptions}
