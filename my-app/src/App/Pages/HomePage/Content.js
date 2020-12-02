@@ -1,32 +1,42 @@
 import React, { Component } from "react"; //import React Component
-import Button from "react-bootstrap/esm/Button";
-//import logo from '.../logo.svg';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export class Content extends Component {
   render() {
     return (
       <div id="root">
-        <div id="header-wrapper">
-          <div id="header">
-            <div class="row">
-              <div id="logo" class="col-auto col-md-auto col-xl d-flex">
-                <h1>Mentor Up</h1>
-              </div>
-              <div id="login" class="col-auto col-md-auto col-xl d-flex">
-                <button>Log In</button>
-              </div>
+        <div className="header-wrapper">
+          <div className="row">
+            <div className="col-sm-10 col-md-10 col-xl-10 d-flex">
+              <img
+                src={`${process.env.PUBLIC_URL}/mentorLogo.jpg`}
+                alt="logo"
+                id="logo"></img>
+            </div>
+            <div
+              id="login"
+              className="col-sm-2 col-md-2 col-xl-2 d-flex ml-auto">
+              <button>Log In</button>
             </div>
           </div>
         </div>
 
-        <div>
-          <div className="MissionStatement row">
-            <h2>Our Mission</h2>
+        <div className="row">
+          <div className="col">
+            <div className="MissionStatement row">
+              <h2>Our Mission</h2>
+            </div>
+            <h3 className="row">
+              At MentorUp, we aim to ensure all students have adequate resources
+              for them to succeed in high school and beyond.
+            </h3>
           </div>
-          <h3 className="row">
-            At MentorUp, we aim to ensure all students have adequate resources
-            for them to succeed in high school and beyond.
-          </h3>
+          <div className="col">
+            <img
+              src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
+              alt="people"
+              id="people"></img>
+          </div>
         </div>
 
         <div id="signUP">
