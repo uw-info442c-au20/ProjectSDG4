@@ -11,7 +11,7 @@ export class FilterItem extends Component {
 
         return (
             <div className='filter-item'>
-                <h2>{filterTitle}</h2>
+                <h4>{filterTitle}</h4>
                 <select className={filterId} defaultValue='all' key='all'>
                     <option value='all'>
                         {this.props.name}
