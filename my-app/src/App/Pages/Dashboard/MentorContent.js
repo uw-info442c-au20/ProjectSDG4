@@ -15,7 +15,6 @@ export class MentorContent extends Component {
     }
     
     filter() {
-
         let select = document.querySelector('.occupations');
         let occupationSelected = select.options[select.selectedIndex].value;
 

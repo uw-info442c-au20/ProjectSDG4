@@ -1,18 +1,20 @@
 [
 
     {
-        "name":"Allen Anderson",
-        "photo":"",
+        "name":"Tara Campbell",
+        "photo":"https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?cs=srgb&dl=pexels-christina-morillo-1181519.jpg&fm=jpg",
+        "photo-acknowledgment": "Photo by Christina Morillo from Pexels",
         "age": "26",
         "occupation": "Graphic Designer",
         "company": "Microsoft",
-        "bio":"Hi my name is Allen! I just started my job at Microsoft earlier this year and I couldn't be happier. I grew up in Bothell but I never really took school seriously and started to fall behind in my classes. I was lucky enough to have a teacher take me under their wings and help me find my passion in graphic design.",
+        "bio":"Hi my name is Tara! I just started my job at Microsoft earlier this year and I couldn't be happier. I grew up in Bothell but I never really took school seriously and started to fall behind in my classes. I was lucky enough to have a teacher take me under their wings and help me find my passion in graphic design.",
         "interests": ["Ice Hockey", "Cooking", "Volunteering"]
     },
 
     {
       "name":"Bill Bonds",
-      "photo":"",
+      "photo":"https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?cs=srgb&dl=pexels-tim-savage-736716.jpg&fm=jpg",
+      "photo-acknowledgment": "Photo by Tim Savage from Pexels",
       "age": "31",
       "occupation": "Nurse",
       "company": "UW Medical Center",
@@ -22,8 +24,9 @@
 
     {
       "name":"Courtney Crouse",
-      "photo":"",
-      "age": "37",
+      "photo":"https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-762020.jpg&fm=jpg",
+      "photo-acknowledgment": "Photo by Andrea Piacquadio from Pexels",
+      "age": "28",
       "occupation": "Lawyer",
       "company": "Emerald Law",
       "bio":"Hello, my name is Courtney and I'm a lawyer! As an adopted child, I totally understand what it is like to grow up in that situation. If you have any questions, don't be afraid to ask!",
@@ -32,7 +35,8 @@
 
     {
       "name":"Dylan Davidson",
-      "photo":"",
+      "photo":"https://images.pexels.com/photos/1722198/pexels-photo-1722198.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "photo-acknowledgment": "Photo by Thyrone Paas from Pexels",
       "age": "27",
       "occupation": "Scribe",
       "company": "UW Medical Center",
@@ -42,8 +46,9 @@
 
     {
       "name":"Ethan Erickson",
-      "photo":"",
-      "age": "33",
+      "photo":"https://images.pexels.com/photos/1339536/pexels-photo-1339536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "photo-acknowledgment": "Photo by Ba Phi from Pexels",
+      "age": "29",
       "occupation": "Music Producer",
       "company": "Seattle Records",
       "bio":"Hi, my name is Ethan and I'm a music producer here in Seattle. All my life I really enjoyed music and playing instruments. It helped me get through school a lot of the times. Don't be afraid to send me any music you guys make!",
