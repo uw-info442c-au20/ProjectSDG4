@@ -39,6 +39,9 @@
 /*********************************************************************************/
 /* Media 375px                                                                   */
 /*********************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
+
 @media (min-width: 375px) {
   * {
     box-sizing: border-box;
@@ -46,34 +49,53 @@
 
   /* Header and LogIn*/
 
-  #logo {
-    color: #8db596;
+  .root {
+    justify-content: center;
   }
 
-  h1 {
+  .Statement-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 1.5rem;
     margin: 0;
   }
 
-  .header-wrapper {
+  h3 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  .Header-Wrapper {
     display: flex;
     flex-direction: row;
+    padding-top: 1rem;
   }
 
   .row {
     width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   #logo {
     height: 70%;
-    margin: auto;
-    justify-content: center;
+    align-self: flex-start;
   }
 
   #login {
+    align-self: flex-end;
+    height: 100%;
     width: 100%;
-    padding-top: 5%;
-    justify-content: center;
-    margin: auto;
+    padding-top: 0.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 4.5rem;
+    padding-right: 1rem;
   }
 
   button {
@@ -84,7 +106,7 @@
     border-style: solid;
     cursor: pointer;
     width: 100%;
-    height: 50%;
+    height: 100%;
   }
 
   button:hover {
@@ -94,18 +116,134 @@
   }
 
   /* Mission Statement*/
-  h2.row {
-    text-align: center;
+  .Mission-wrapper {
+    margin: 0;
+    padding-top: 2.5rem;
+  }
+
+  .statement {
+    padding: 3.5rem;
+  }
+
+  .highlight-text {
+    color: #77af9c;
   }
 
   .MissionStatement {
     justify-content: center;
+    justify-content: baseline;
+  }
+
+  #introductionPic {
+    width: 100%;
+  }
+
+  .Statement-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    margin: 0;
+  }
+
+  /* Sign-UP */
+  .Signup-Wrapper {
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+
+  .Signup-Button-Wrapper {
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  h4 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  /* Feature Intro */
+
+  .Feature-Wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: baseline;
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    background-color: #fcecdc;
+  }
+
+  /* position: relative;
+  background-color: #fcecdc;
+  overflow: hidden; */
+
+  /* .wave {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../src/App/Pages/HomePage/wave.png);
+    background-size: 1000px 100px;
+  } */
+
+  .FeatureTitle {
+    justify-content: center;
+    justify-content: baseline;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .FeaturePic-Wrapper {
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+  }
+
+  .Feature-1 {
+    justify-content: center;
+  }
+
+  .Feature-2 {
+    justify-content: center;
+  }
+
+  .Feature-3 {
+    justify-content: center;
+  }
+
+  #Feature1Pic {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  #Feature2Pic {
+    width: 100%;
+    height: 100%;
+  }
+
+  #Feature3Pic {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Feature-Desc {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.15rem;
+    text-align: center;
+    width: 100%;
   }
 
   /* Dashboard Filters */
   .filters {
-    display: flex; 
-    flex-direction: row; 
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
   }
 
@@ -118,16 +256,73 @@
   }
 }
 
-
 /*********************************************************************************/
 /* media 768px                                                                   */
 /*********************************************************************************/
 @media (min-width: 768px) {
+  /* Mission Statement */
+  .Statement-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    margin: 0;
+  }
+
+  /* Feature Intro */
+  .Feature-Desc {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.15rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Sign-Up Button */
+  .Signup-Wrapper {
+    justify-content: center;
+    margin-top: 3.5rem;
+  }
+
+  .Signup-Button-Wrapper {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
 }
 
 /*********************************************************************************/
 /* media 1200px                                                                  */
 /*********************************************************************************/
 @media (min-width: 1200px) {
-}
+  /* Mission Statement */
+  .Statement-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    margin: 0;
+  }
 
+  /* Feature Intro */
+  .Feature-Desc {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Sign-Up Button */
+  .Signup-Wrapper {
+    margin-top: 3.5rem;
+  }
+
+  .Signup-Button-Wrapper {
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
