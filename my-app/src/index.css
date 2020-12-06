@@ -1,18 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
-@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
 
 /* GENERAL STYLING
 */
-h1, h2, h3, h4 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600; 
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
-p, a, button, option, .filter-item select {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300; 
+p,
+a,
+button,
+option,
+.filter-item select {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
-
 
 .App {
   text-align: center;
@@ -63,57 +69,6 @@ p, a, button, option, .filter-item select {
     box-sizing: border-box;
   }
 
-  /* Header and LogIn*/
-
-  .root {
-    justify-content: center;
-  }
-
-  .Statement-text {
-    font-family: "Poppins", sans-serif;
-    font-size: 0.5rem;
-    text-align: center;
-    padding: 1rem;
-    padding-top: 1.5rem;
-    margin: 0;
-  }
-
-  h3 {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-  }
-
-  .Header-Wrapper {
-    display: flex;
-    flex-direction: row;
-    padding-top: 1rem;
-  }
-
-  .row {
-    width: 100%;
-    margin-right: 0;
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  #logo {
-    height: 70%;
-    align-self: flex-start;
-  }
-
-  #login {
-    align-self: flex-end;
-    height: 100%;
-    width: 100%;
-    padding-top: 0.5rem;
-    padding-left: 2.5rem;
-    padding-bottom: 4.5rem;
-    padding-right: 1rem;
-  }
-
   button {
     color: #8db596;
     background-color: white;
@@ -129,6 +84,79 @@ p, a, button, option, .filter-item select {
     opacity: 0.8;
     color: white;
     background-color: #8db596;
+  }
+
+  /* NavBar*/
+
+  .navbar {
+    background-color: white;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+  }
+
+  a,
+  .navbar-nav,
+  .navbar-light .nav-link {
+    color: black !important;
+    font-size: large;
+  }
+
+  a,
+  .navbar-nav,
+  .navbar-light .nav-link:hover {
+    color: #77af9c !important;
+  }
+
+  /* .navbar_link_active {
+    border-bottom: 3px solid #29b6f6 !important;
+    transition: border-bottom 0.5s ease-in-out;
+  } */
+
+  .Nav-button {
+    color: #77af9c !important;
+    background-color: white !important;
+    border-radius: 5px;
+    border-color: #77af9c !important;
+    border-style: solid;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Nav-button:hover {
+    color: white !important;
+    background-color: #77af9c !important;
+  }
+
+  .root {
+    justify-content: center;
+  }
+
+  #logo {
+    width: 80%;
+  }
+
+  .Statement-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    margin: 0;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .row {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   /* Mission Statement*/
@@ -194,21 +222,6 @@ p, a, button, option, .filter-item select {
     background-color: #fcecdc;
   }
 
-  /* position: relative;
-  background-color: #fcecdc;
-  overflow: hidden; */
-
-  /* .wave {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: url(../src/App/Pages/HomePage/wave.png);
-    background-size: 1000px 100px;
-  } */
-
   .FeatureTitle {
     justify-content: center;
     justify-content: baseline;
@@ -251,9 +264,15 @@ p, a, button, option, .filter-item select {
 
   .Feature-Desc {
     font-family: "Poppins", sans-serif;
-    font-size: 1.15rem;
+    font-size: 1rem;
     text-align: center;
+    padding: 0rem;
     width: 100%;
+  }
+
+  /* Dashboard */
+  .Dashboard-content-wrapper {
+    margin-top: 3.5rem;
   }
 
   /* Dashboard Filters */
@@ -269,72 +288,80 @@ p, a, button, option, .filter-item select {
 
   .filter-item select {
     width: 85%;
+    background-color: #fcecdc;
+    border: 6px solid transparent;
+    border-color: transparent transparent transparent transparent;
   }
 
   .filter-btn-container {
-    text-align: center; 
-  } 
+    text-align: center;
+  }
+
   .filter-btn {
     width: 25%;
   }
 
   /* Mentor List */
+  .card-body {
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.7);
+  }
 
   .mentor-img {
-    width: 20.625rem;
+    max-width: 100%;
     height: 12.5rem;
   }
 
   .image-container {
-    position: absolute; 
+    position: absolute;
   }
 
   .mentor-results {
-    display: flex; 
     flex-direction: column;
     margin-top: 2rem;
-    margin-left: 5rem; 
-    margin-right: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     justify-content: center;
   }
 
   .card {
     margin-bottom: 2rem;
+    border: 0;
   }
 
   .mentor-info {
-    display: flex; 
-    flex-direction: row; 
-    align-items: center;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
   .details-container {
-    margin-left: 2rem; 
+    margin-left: 2rem;
   }
 
   .interests {
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
 
   .age {
-    margin-top: 1rem; 
+    margin-top: 1rem;
   }
 
   .mentor-btn-container {
-    display: flex; 
-    flex-direction: row; 
-    margin-top: 2rem; 
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
     justify-content: space-evenly;
   }
 
-  .message-btn, .remove-btn {
-    width: 30%; 
+  .message-btn,
+  .remove-btn {
+    width: 30%;
   }
 
   .remove-btn {
     color: #df7c82;
     background-color: white;
-    border-color:#df7c82;
+    border-color: #df7c82;
   }
 
   .remove-btn:hover {
@@ -344,9 +371,102 @@ p, a, button, option, .filter-item select {
   }
 
   .mentor-results .hide {
-    display: none; 
+    display: none;
   }
 
+  /* Log In/Sign Up page */
+  .Sign-in-up-button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 0;
+    color: #8cd790;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #fff;
+    cursor: pointer;
+  }
+
+  .Sign-in-up-button:hover {
+    opacity: 0.9;
+    color: black;
+    background-color: #d7fff1;
+  }
+
+  .login {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    background: #fcecdc;
+    display: flex;
+  }
+
+  .login .loginContainer {
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(
+      ellipse at left bottom,
+      rgb(119, 175, 156) 0%,
+      rgba(140, 215, 144, 0.9) 59%,
+      rgba(119, 175, 156, 0.9) 100%
+    );
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  }
+
+  .login .loginContainer label {
+    color: white;
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  .login .loginContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  .login .loginContainer .btnContainer {
+    width: 100%;
+    padding: 24px 0;
+  }
+
+  .login .loginContainer .btnContainer p {
+    margin: 14px 0 0 0;
+    text-align: right;
+    color: #fff;
+  }
+
+  span {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+  }
+
+  span:hover {
+    color: black;
+  }
+
+  .login .loginContainer .errorMsg {
+    color: black;
+    font-size: 16px;
+  }
 }
 
 /*********************************************************************************/
@@ -383,6 +503,14 @@ p, a, button, option, .filter-item select {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
+
+  .mentor-results {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: center;
+  }
 }
 
 /*********************************************************************************/
@@ -402,7 +530,8 @@ p, a, button, option, .filter-item select {
   /* Feature Intro */
   .Feature-Desc {
     font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 1rem;
     text-align: center;
     width: 100%;
   }
@@ -417,5 +546,13 @@ p, a, button, option, .filter-item select {
     padding-right: 30rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .mentor-results {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: center;
   }
 }

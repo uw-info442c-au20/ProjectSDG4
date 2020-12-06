@@ -1,14 +1,14 @@
-import React, { Component } from 'react'; //import React Component
-import { Discussion } from './Discussion.js';
-import { SideNav } from '../Navigation/SideNav.js';
+import React, { Component } from "react"; //import React Component
+import { Discussion } from "./Discussion.js";
+// import { NavigationBar } from "../Navigation/Nav.js";
 
 export class DiscussionPage extends Component {
-    render() {
-        return (
-            <section>
-                <SideNav />
-                <Discussion />
-            </section>
-        );
-    }
+  render() {
+    return (
+      <section>
+        {/* <NavigationBar /> */}
+        <Discussion />
+      </section>
+    );
+  }
 }

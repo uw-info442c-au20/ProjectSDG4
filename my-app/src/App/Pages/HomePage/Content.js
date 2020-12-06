@@ -2,18 +2,10 @@ import React, { Component } from "react"; //import React Component
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export class Content extends Component {
-  //   ActivateLogIn = () => {
-  //     this.setState({
-  //       loginOn: true,
-  //     });
-  //     console.log("loged in");
-  //   };
-
   render() {
-    // const { loginON } = this.state;
     return (
       <div id="root">
-        <div className="Header-Wrapper">
+        {/* <div className="Header-Wrapper">
           <div className="row">
             <div className="col-sm-8 col-md-8 col-xl-8 d-flex logo-Wrapper">
               <img
@@ -27,7 +19,7 @@ export class Content extends Component {
               <button onClick={() => this.ActivateLogIn}>Log In</button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="Mission-wrapper">
           <div className="row">
@@ -68,7 +60,10 @@ export class Content extends Component {
                       alt="Illustration of Mentor Match"
                       id="Feature1Pic"></img>
                   </div>
-                  <p className="Feature-Desc">Feature1 description</p>
+                  <p className="Feature-Desc">
+                    Our Mentor match up feature can help you find the perfect
+                    mentor who share similar identity with you.
+                  </p>
                 </div>
               </div>
               <div className="feature-2 col-sm-4 col-md-4 col-xl-4 d-flex">
@@ -79,7 +74,10 @@ export class Content extends Component {
                       alt="Illustration of online chat"
                       id="Feature2Pic"></img>
                   </div>
-                  <p className="Feature-Desc">Feature2 description</p>
+                  <p className="Feature-Desc">
+                    Our online live message feature allows you to directly
+                    message the mentor who you interested in talking with.{" "}
+                  </p>
                 </div>
               </div>
               <div className="feature-3 col-sm-4 col-md-4 col-xl-4 d-flex">
@@ -90,7 +88,10 @@ export class Content extends Component {
                       alt="Illustration of online discussion"
                       id="Feature3Pic"></img>
                   </div>
-                  <p className="Feature-Desc">Feature3 description</p>
+                  <p className="Feature-Desc">
+                    We have a community discussion page, where you can find high
+                    school student just like you and make friends with them.
+                  </p>
                 </div>
               </div>
             </div>
@@ -100,9 +101,6 @@ export class Content extends Component {
         <div className="Signup-Wrapper">
           <div>
             <h4>Join Our Community</h4>
-          </div>
-          <div className="Signup-Button-Wrapper">
-            <button className="Sign-Up-Button">Sign Up</button>
           </div>
         </div>
       </div>
