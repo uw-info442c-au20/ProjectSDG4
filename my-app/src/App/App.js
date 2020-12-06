@@ -8,6 +8,7 @@ import { ProfilePage } from "./Pages/ProfilePage/ProfilePage.js";
 import { NavigationBar } from "./Pages/Navigation/Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { LoginWithRouter } from "./Pages/AuthPage/Login.js";
+import Footer from "./Pages/Footer.js";
 import { auth } from "./database/firebase.js";
 
 export class App extends Component {
@@ -49,6 +50,7 @@ export class App extends Component {
             )}
           />
         </Switch>
+        <Footer />
       </Router>
     );
   }

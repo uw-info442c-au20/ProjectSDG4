@@ -23,31 +23,31 @@ export class Content extends Component {
 
         <div className="Mission-wrapper">
           <div className="row">
-            <div className="col">
+            <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
               <img
                 src={`${process.env.PUBLIC_URL}/Mentorship.jpg`}
                 alt="Introduction Picture"
                 id="introductionPic"></img>
             </div>
-            <div className="col statement">
-              <div className="MissionStatement row">
-                <h3>Our</h3>
-                <h3 className="highlight-text"> &nbsp; Mission</h3>
+            <div className="statement col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
+              <div className="row">
+                <div className="MissionStatement row">
+                  <h3>Our</h3>
+                  <h3 className="highlight-text"> &nbsp; Mission</h3>
+                </div>
+                <div>
+                  <p className="row Statement-text">
+                    At MentorUp, we aim to ensure all students have adequate
+                    resources to succeed in high school and beyond.
+                  </p>
+                </div>
               </div>
-              <p className="row Statement-text">
-                At MentorUp, we aim to ensure all students have adequate
-                resources to succeed in high school and beyond.
-              </p>
             </div>
           </div>
         </div>
 
         <div className="Feature-Wrapper">
           <div className="row">
-            <div className="wave wave-1"></div>
-            <div className="wave wave-2"></div>
-            <div className="wave wave-3"></div>
-            <div className="wave wave-4"></div>
             <div className="FeatureTitle row">
               <h3>Features</h3>
             </div>
@@ -98,7 +98,7 @@ export class Content extends Component {
           </div>
         </div>
 
-        <div className="Signup-Wrapper">
+        <div className="Intro-Video-Wrapper">
           <div>
             <h4>Join Our Community</h4>
           </div>

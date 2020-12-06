@@ -20,6 +20,12 @@ option,
   font-weight: 300;
 }
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -191,17 +197,11 @@ option,
     margin: 0;
   }
 
-  /* Sign-UP */
-  .Signup-Wrapper {
+  /* Intro video container */
+  .Intro-Video-Wrapper {
     justify-content: center;
     margin-top: 2.5rem;
-  }
-
-  .Signup-Button-Wrapper {
-    padding-left: 5.5rem;
-    padding-right: 5.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
   }
 
   h4 {
@@ -466,6 +466,32 @@ option,
   .login .loginContainer .errorMsg {
     color: black;
     font-size: 16px;
+  }
+
+  footer {
+    background-color: #77af9c;
+    margin-bottom: 0;
+  }
+
+  .copyright {
+    overflow: hidden;
+  }
+
+  .copyright p {
+    letter-spacing: 0.15em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: rgb(209, 206, 206);
+    width: 100%;
+  }
+
+  .copyright a {
+    color: rgb(209, 206, 206);
+  }
+
+  p.Foodter-text {
+    color: white;
   }
 }
 
