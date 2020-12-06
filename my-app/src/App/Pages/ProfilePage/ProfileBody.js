@@ -29,10 +29,10 @@ export class ProfileBody extends Component {
                     </p>
                 </div>
                 <div className="interests">
-                    <h2>Interests:</h2>
-                    <div align="center" className="Interest-Divs"><p>Softball</p></div>
-                    <div align="center" className="Interest-Divs"><p>Softball</p></div>
-                    <div align="center" className="Interest-Divs"><p>Softball</p></div>
+                    <h3 className="text-lg-left mb-4">Interests:</h3>
+                    <div align="center" className="Interest-Divs"><p>Soccer</p></div>
+                    <div align="center" className="Interest-Divs"><p>Dance</p></div>
+                    <div align="center" className="Interest-Divs"><p>Sports Management</p></div>
                 </div>
             </section>
         );

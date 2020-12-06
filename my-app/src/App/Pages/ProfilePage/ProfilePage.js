@@ -6,7 +6,7 @@ export class ProfilePage extends Component {
     render() {
         return (
             <section>
-                <SideNav />
+                {/* <SideNav /> */}
                 <ProfileBody />
             </section>
         );
