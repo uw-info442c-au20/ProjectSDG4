@@ -7,6 +7,7 @@ export class ProfilePage extends Component {
         return (
             <section>
                 <SideNav />
+                <ProfileBody />
             </section>
         );
     }

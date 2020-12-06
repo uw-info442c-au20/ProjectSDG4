@@ -418,4 +418,55 @@ p, a, button, option, .filter-item select {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
+
+  /*** Profile page ***/
+
+  .profile-body {
+    padding-top: 5em;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .profile-details {
+    height: auto;
+    width: auto;
+  }
+
+  
+  .profile-img {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 5em;
+  }
+
+  .name-age-school {
+    line-height: 25px;
+    display: inline-block;
+    margin-left: 7em;
+  }
+
+  .name-age-school span {
+    color: #8db596;
+  }
+
+  .bio {
+    /* margin-left: 17em; */
+    height: 22em;
+    width: 50em;
+    padding: 50px;
+    background:#FCECDC;
+    border-radius: 10px;
+  }
+
+  .Interest-Divs {
+    float: left;
+    border-radius: 5px;
+    border: 2px solid #8db596;
+    padding: 8px; 
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    margin-right: 3em;
+  }
 }
