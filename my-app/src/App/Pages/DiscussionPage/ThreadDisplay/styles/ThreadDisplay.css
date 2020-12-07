@@ -1,0 +1,27 @@
+.main-post {
+    margin: 1em 20%;
+    background-color: #D7FFF1;  
+}
+
+p{
+    margin:1em;
+}
+
+.post-title{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.post-profile{
+    height: auto;
+    margin: 1em;
+    background-color: #B3E8BC;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    height: 40px;
+    width: 40px;
+}
+
+

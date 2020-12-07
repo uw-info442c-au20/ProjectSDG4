@@ -1,0 +1,22 @@
+.post-editor-button {
+    float:right;
+    margin-top: 1em;
+}
+
+.post-editor{
+    margin: 1em 30%;
+    background-color: #D7FFF1;
+}
+
+.post-profile{
+    height: auto;
+    margin: 1em;
+    background-color: #B3E8BC;
+    border-radius: 10px;
+}
+
+.post-editor-button{
+    background-color: #77AF9C;
+    border-color: #77AF9C;
+}
+
