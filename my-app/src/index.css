@@ -618,6 +618,215 @@ html {
   .Discussion-Wrapper {
     margin-top: 2rem;
   }
+
+  /* Message page */
+
+  .messagePage-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .People-List {
+    float: center;
+    width: 100%;
+  }
+
+  .search-bar {
+    padding: 20px;
+  }
+
+  .search-input {
+    border-radius: 3px;
+    border: none;
+    padding: 14px;
+    color: white;
+    background: #98999e;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .fa-search {
+    position: relative;
+    left: -25px;
+  }
+
+  .person-wrapper {
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contract-list-wrapper {
+    padding: 20px;
+    height: 500px;
+  }
+
+  #ContractPic {
+    float: left;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .contract-about {
+    padding-left: 8px;
+  }
+
+  .status {
+    color: grey;
+  }
+
+  .chat {
+    background: #f2f5f8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #434651;
+  }
+
+  .chat-header {
+    padding: 20px;
+    border-bottom: 2px solid white;
+  }
+
+  .chat-about {
+    float: left;
+    padding-left: 10px;
+    margin-top: 6px;
+  }
+
+  .chat-with {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .chat-count {
+    color: gray;
+  }
+
+  .fa-star {
+    float: right;
+    color: #d8dadf;
+    font-size: 20px;
+    margin-top: 12px;
+  }
+
+  .chat-history {
+    padding: 30px 30px 20px;
+    border-bottom: 2px solid white;
+    overflow-y: scroll;
+  }
+
+  .message-data {
+    margin-bottom: 15px;
+  }
+
+  .message-data-time {
+    color: lighten(gray, 8%);
+    padding-left: 6px;
+  }
+
+  .message {
+    color: white;
+    padding: 18px 20px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    width: 90%;
+    position: relative;
+  }
+
+  .message:after {
+    bottom: 100%;
+    left: 7%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #77af9c;
+    border-width: 10px;
+    margin-left: -10px;
+  }
+
+  .my-message {
+    background: #77af9c;
+  }
+
+  .other-message {
+    background: #71a6c9;
+  }
+
+  .chat-message {
+    padding: 30px;
+  }
+
+  textarea {
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    font: 14px/22px "Lato", Arial, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    resize: none;
+  }
+
+  .fa-file-o,
+  .fa-file-image-o {
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .send-button {
+    float: right;
+    color: #71a6c9;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #f2f5f8;
+  }
+
+  .send-button:hover {
+    color: darken(rgb(63, 63, 90), 7%);
+  }
+
+  .online,
+  .offline,
+  .me {
+    margin-right: 3px;
+    font-size: 10px;
+  }
+
+  .online {
+    color: green;
+  }
+
+  .offline {
+    color: orange;
+  }
+
+  .me {
+    color: #71a6c9;
+  }
+
+  .align-right {
+    text-align: right;
+    align-content: right;
+  }
+
+  .float-right {
+    float: right;
+  }
 }
 
 /*********************************************************************************/
@@ -709,6 +918,17 @@ html {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  /* Message page */
+
+  .messagePage-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: 100%;
+    border-radius: 5px;
+  }
 }
 
 /*********************************************************************************/
@@ -758,5 +978,14 @@ html {
     margin-left: 8rem;
     margin-right: 8rem;
     justify-content: center;
+  }
+
+  .messagePage-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    width: 100%;
+    border-radius: 5px;
   }
 }
