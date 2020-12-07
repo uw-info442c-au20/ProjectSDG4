@@ -35,7 +35,7 @@ export class Content extends Component {
             <div className="FeatureTitle row">
               <h3>Features</h3>
             </div>
-            <div className="row">
+            <div className="Feature-Item-Wrapper row">
               <div className="feature-1 col-sm-4 col-md-4 col-xl-4 d-flex justify-content-center">
                 <div className="row">
                   <div className="FeaturePic-Wrapper">

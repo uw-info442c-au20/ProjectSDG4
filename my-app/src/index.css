@@ -96,8 +96,9 @@ html {
 
   .navbar {
     background-color: white;
-    margin-left: 1.3rem;
-    margin-right: 1.3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 1rem;
   }
 
   a,
@@ -110,6 +111,12 @@ html {
   a,
   .navbar-nav,
   .navbar-light .nav-link:hover {
+    color: #77af9c !important;
+  }
+
+  a,
+  .navbar-nav,
+  .navbar-light .nav-link:active {
     color: #77af9c !important;
   }
 
@@ -167,8 +174,9 @@ html {
 
   /* Mission Statement*/
   .Mission-wrapper {
-    margin: 0;
+    margin: 2rem;
     padding-top: 2.5rem;
+    margin-bottom: 4rem;
   }
 
   .statement {
@@ -219,6 +227,7 @@ html {
     height: 100%;
     padding-top: 1rem;
     margin-top: 2rem;
+    margin-bottom: 4rem;
     background-color: #fcecdc;
   }
 
@@ -227,6 +236,13 @@ html {
     justify-content: baseline;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .Feature-Item-Wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .FeaturePic-Wrapper {
@@ -237,14 +253,17 @@ html {
 
   .Feature-1 {
     justify-content: center;
+    padding: 2rem;
   }
 
   .Feature-2 {
     justify-content: center;
+    padding: 2rem;
   }
 
   .Feature-3 {
     justify-content: center;
+    padding: 2rem;
   }
 
   #Feature1Pic {
@@ -280,6 +299,9 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 3rem;
   }
 
   .filter-item {
@@ -287,10 +309,13 @@ html {
   }
 
   .filter-item select {
-    width: 85%;
+    width: 100%;
     background-color: #fcecdc;
     border: 6px solid transparent;
     border-color: transparent transparent transparent transparent;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0.5rem;
   }
 
   .filter-btn-container {
@@ -301,9 +326,14 @@ html {
     width: 25%;
   }
 
+  .interests {
+    text-align: center;
+  }
+
   /* Mentor List */
   .card-body {
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.7);
+    margin: 0;
   }
 
   .mentor-img {
@@ -318,8 +348,7 @@ html {
   .mentor-results {
     flex-direction: column;
     margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding: 0;
     justify-content: center;
   }
 
@@ -531,14 +560,6 @@ html {
     margin: 0.3rem;
   }
 
-  .mentor-results {
-    flex-direction: column;
-    margin-top: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    justify-content: center;
-  }
-
   /* Mission Statement */
 
   footer {
@@ -609,8 +630,8 @@ html {
   .mentor-results {
     flex-direction: column;
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     justify-content: center;
   }
 
@@ -639,8 +660,8 @@ html {
   .Feature-Desc {
     font-family: "Poppins", sans-serif;
     font-size: 1.2rem;
-    padding: 1rem;
     text-align: center;
+    padding: 0rem;
     width: 100%;
   }
 
@@ -660,5 +681,13 @@ html {
     padding-top: 5rem;
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .mentor-results {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    justify-content: center;
   }
 }
