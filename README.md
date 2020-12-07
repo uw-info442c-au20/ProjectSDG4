@@ -8,7 +8,9 @@ Visit the website <a href="https://spicyfood-mentorup.web.app/">here.</a>
 ## About MentorUp
 
 **Our Focus:** Higher Education, accessibility to quality education.
+<br>
 **Importance of Mentorship:** Quality mentorship greatly enhances students' chances for success.
+<br>
 **Mission:** Provide quality mentorship for students through online matchmaking.
 
 ## Built Using
