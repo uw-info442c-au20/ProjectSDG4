@@ -1,0 +1,41 @@
+@media (min-width: 375px) {
+  .post-body {
+    margin: 1em 15%;
+    background-color: #d7fff1;
+  }
+
+  .post-profile {
+    height: auto;
+    margin: 1em;
+    background-color: #b3e8bc;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .post-body {
+    margin: 1em 30%;
+    background-color: #d7fff1;
+  }
+
+  .post-profile {
+    height: auto;
+    margin: 1em;
+    background-color: #b3e8bc;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .post-body {
+    margin: 1em 30%;
+    background-color: #d7fff1;
+  }
+
+  .post-profile {
+    height: auto;
+    margin: 1em;
+    background-color: #b3e8bc;
+    border-radius: 10px;
+  }
+}
