@@ -114,7 +114,11 @@ const Login = ({ history, toggleLoginState }) => {
               </button>
               <p>
                 Don't have an account ?{" "}
-                <span onClick={() => setHasAccount(!hasAccount)}>Sign up</span>
+                <span
+                  className="sign-in-span"
+                  onClick={() => setHasAccount(!hasAccount)}>
+                  Sign up
+                </span>
               </p>
             </>
           ) : (
@@ -124,7 +128,11 @@ const Login = ({ history, toggleLoginState }) => {
               </button>
               <p>
                 Have an account ?{" "}
-                <span onClick={() => setHasAccount(!hasAccount)}>Sign in</span>
+                <span
+                  className="sign-in-span"
+                  onClick={() => setHasAccount(!hasAccount)}>
+                  Sign in
+                </span>
               </p>
             </>
           )}
