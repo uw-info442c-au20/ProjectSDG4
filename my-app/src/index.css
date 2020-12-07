@@ -96,8 +96,8 @@ html {
 
   .navbar {
     background-color: white;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin-top: 1rem;
   }
 
@@ -174,13 +174,12 @@ html {
 
   /* Mission Statement*/
   .Mission-wrapper {
-    margin: 2rem;
     padding-top: 2.5rem;
     margin-bottom: 4rem;
   }
 
   .statement {
-    padding: 3.5rem;
+    padding: 1.5rem;
   }
 
   .highlight-text {
@@ -208,13 +207,32 @@ html {
   /* Intro video container */
   .Intro-Video-Wrapper {
     justify-content: center;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     margin-bottom: 2.5rem;
+  }
+
+  .Join-statement {
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   h4 {
     font-family: "Poppins", sans-serif;
     text-align: center;
+  }
+
+  .Video-Wrapper {
+    justify-content: center;
+    position: center;
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+
+  .Video {
+    width: 350px;
+    height: 200px;
+    justify-content: center;
   }
 
   /* Feature Intro */
@@ -227,7 +245,7 @@ html {
     height: 100%;
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     background-color: #fcecdc;
   }
 
@@ -553,11 +571,16 @@ html {
     float: left;
     border-radius: 5px;
     border: 2px solid #8db596;
-    padding: 8px;
+    margin: 0.3rem;
     width: 200px;
     height: 40px;
     justify-content: center;
-    margin: 0.3rem;
+    padding: 0.2rem;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
   }
 
   /* Mission Statement */
@@ -606,12 +629,49 @@ html {
     margin: 0;
   }
 
+  .statement {
+    padding: 3.5rem;
+  }
+
+  .Intro-Video-Wrapper {
+    justify-content: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
   /* Feature Intro */
   .Feature-Desc {
     font-family: "Poppins", sans-serif;
     font-size: 1.15rem;
     text-align: center;
     width: 100%;
+  }
+
+  .Feature-Wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: baseline;
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background-color: #fcecdc;
+  }
+
+  .navbar {
+    background-color: white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 1rem;
+  }
+
+  .Join-statement {
+    justify-content: center;
+    padding-left: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 10rem;
   }
 
   /* Sign-Up Button */

@@ -1,5 +1,6 @@
 import React, { Component } from "react"; //import React Component
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactPlayer from "react-player";
 
 export class Content extends Component {
   render() {
@@ -83,8 +84,18 @@ export class Content extends Component {
         </div>
 
         <div className="Intro-Video-Wrapper">
-          <div>
-            <h4>Join Our Community</h4>
+          <div className="row">
+            <div className="Join-statement col-auto col-sm-auto col-md-6 col-lg-6">
+              <h4>Join Our Community</h4>
+            </div>
+            <div className="Video-Wrapper col-auto col-sm-auto col-md-6 col-lg-6">
+              <ReactPlayer
+                className="Video"
+                url="https://youtu.be/kvNyZLYb0lk"
+                width={350}
+                height={250}
+              />
+            </div>
           </div>
         </div>
       </div>
