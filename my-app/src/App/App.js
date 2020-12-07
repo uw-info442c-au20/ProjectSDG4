@@ -9,30 +9,23 @@ import { NavigationBar } from "./Pages/Navigation/Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { LoginWithRouter } from "./Pages/AuthPage/Login.js";
 import Footer from "./Pages/Footer.js";
-import { auth } from "./database/firebase.js";
 
 export class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { isLogin: false, user: {} };
+    this.state = { isLogin: false };
   }
 
   toggleLoginState = (isLogin, user) => {
-    this.setState({ isLogin, user });
-  };
-
-  componentDidMount = () => {
-    auth.onAuthStateChanged((user) => {
-      if (user) {
-        this.setState({ user });
-      }
-    });
+    this.setState({ isLogin });
+    console.log("toggleLoginState is called: " + isLogin);
   };
 
   render() {
     return (
       <Router>
+        {/* <UserProvider> */}
         <NavigationBar isLogin={this.state.isLogin} />
         <Switch>
           <Route path="/" exact component={HomePage} />
@@ -51,6 +44,7 @@ export class App extends Component {
           />
         </Switch>
         <Footer />
+        {/* </UserProvider> */}
       </Router>
     );
   }

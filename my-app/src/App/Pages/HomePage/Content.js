@@ -5,22 +5,6 @@ export class Content extends Component {
   render() {
     return (
       <div id="root">
-        {/* <div className="Header-Wrapper">
-          <div className="row">
-            <div className="col-sm-8 col-md-8 col-xl-8 d-flex logo-Wrapper">
-              <img
-                src={`${process.env.PUBLIC_URL}/mentorLogo.jpg`}
-                alt="logo"
-                id="logo"></img>
-            </div>
-            <div
-              id="login"
-              className="col-sm-2 col-md-2 col-xl-2 d-flex ml-auto login-wrapper">
-              <button onClick={() => this.ActivateLogIn}>Log In</button>
-            </div>
-          </div>
-        </div> */}
-
         <div className="Mission-wrapper">
           <div className="row">
             <div className="col-12 col-sm-auto col-md-auto col-lg-6 d-flex">
