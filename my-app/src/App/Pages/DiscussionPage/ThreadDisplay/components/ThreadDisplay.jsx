@@ -5,7 +5,8 @@ import PostEditor from '../../PostEditor/components/PostEditor'
 import '../styles/ThreadDisplay.css';
 import ProfilePic from './chancelol.png';
 import Sam from './sam.PNG';
-import Wakataka from './wakataka.PNG'
+import Wakataka from './wakataka.PNG';
+import Kayvon from './kayvonsmaller.PNG';
 
 class ThreadDisplay extends Component {
     constructor(props) {
@@ -90,10 +91,10 @@ class ThreadDisplay extends Component {
             <div className="card card-default main-post">
                 <div className="d-flex flex-row post-profile">
                     <div className='p-2'>
-                        <img className="rounded-circle profile-pic" src={ProfilePic} alt='profile'/>
+                        <img className="rounded-circle profile-pic" src={Kayvon} alt='profile'/>
                     </div>
                     <div className='p-2'> 
-                        <h4>Chancelor Bennett</h4>
+                        <h4>Adam Kaufman</h4>
                     </div>
                 </div>
                 <h1 className='post-title'>How I went from hating math to working at NASA</h1>
